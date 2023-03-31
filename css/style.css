@@ -1,0 +1,70 @@
+:root{
+    --main-color:#FFD4D4;
+    --secondray-color:#FFFFE8;
+    --third-color:#AACB73;
+}
+
+@font-face{
+    font-family: "Creattion";
+
+    src: url(../fonts/Creattion\ Demo.otf);
+}
+@font-face{
+    font-family: "Teko";
+
+    src: url(../fonts/Teko-Regular.ttf);
+}
+
+
+::selection{
+    background-color: var(--main-color);
+    color: white;
+}
+
+    /* Scrollbar style  */
+::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,128,77,0.6);
+	border-radius: 10px;
+    
+
+  } 
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondray-color); 
+    border-radius: 10px;
+ 
+  }
+
+    
+    
+.card{
+
+    background-color: var(--secondray-color);
+}
+h1{
+
+    
+    letter-spacing: 0.2rem;
+}
+#home{
+
+    background-image: url(../images/wallpaperflare.com_wallpaper\ \(11\).jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    
+    background-attachment: fixed;
+}
+.overlay{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+p{
+
+    font-weight:bold ;
+}

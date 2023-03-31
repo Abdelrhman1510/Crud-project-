@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section id="home" class="text-white">
+        <div class="overlay">
+            <div class="container py-5 w-75 mx-auto">
+                <h1 class="title mb-5  ">LIBRARY</h1>
+                <label for="bookName" class="mb-3  ">Book Name</label>
+                <input type="text" class="form-control rounded-pill" id="bookName" placeholder="Book Name">
+                <p class="text-danger d-none mb-3 ms-3" id="wrongInputName">Invalid Name start with capital letter</p>
+                <label for="bookUrl" class="mb-3 mt-3">Book Url</label>
+                <input type="text" class="form-control mb-3 rounded-pill" id="bookUrl" placeholder="Book Url">
+                <p class="text-danger d-none mb-3 ms-3" id="wrongInputUrl">Check Your Url </p>
+                
+                <button class="btn btn-primary btn-lg rounded-pill mb-5" onclick="addBook()">Add Book</button>
+    
+                <div class="row gy-3" id="library">
+    
+               
+                   
+                    <script src="js/index.js"></script>
+    
+                </div>
+    
+    
+            </div>
+        </div>
+       
+    </section>
+    
+</body>
+</html>
